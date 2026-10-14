@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="FAN Ingeniería y Proyectos. Regularización de viviendas, Ley del Mono, proyectos sanitarios y asesorías en la Región de O'Higgins.">
+<title>FAN Ingeniería y Proyectos</title>
+<style>
+:root{--azul:#12365a;--celeste:#2384c6;--claro:#edf6fc;--verde:#168653}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,sans-serif;color:#26384a;line-height:1.65}
+header{background:white;padding:18px 6%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;border-bottom:1px solid #ddd}
+.logo{font-weight:bold;font-size:20px;color:var(--azul)}
+.logo small{display:block;font-size:11px;color:var(--celeste);letter-spacing:2px}
+nav{display:flex;gap:15px;flex-wrap:wrap}
+nav a{color:var(--azul);text-decoration:none;font-weight:bold;font-size:14px}
+.hero{padding:90px 7%;color:white;background:linear-gradient(120deg,#102d4fef,#2384c6df),url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=80') center/cover}
+.hero .small{font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#c8e8ff;font-weight:bold}
+h1{font-size:clamp(35px,5vw,57px);line-height:1.12;max-width:780px;margin:18px 0}
+.hero p{font-size:18px;max-width:680px}
+.btn{display:inline-block;padding:13px 20px;border-radius:8px;text-decoration:none;font-weight:bold;margin:8px 8px 0 0}
+.whatsapp{background:var(--verde);color:white}
+.secundario{border:1px solid white;color:white}
+section{padding:65px 7%}
+h2{color:var(--azul);font-size:32px;line-height:1.2}
+.intro{max-width:750px;color:#637386}
+.fondo{background:var(--claro)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px;margin-top:30px}
+.card{padding:24px;background:white;border:1px solid #dce6ee;border-radius:13px;box-shadow:0 5px 18px #12365a0b}
+.card h3{color:var(--azul);margin-top:0}
+.icono{font-size:28px;color:var(--celeste)}
+.precio{font-size:27px;font-weight:bold;color:var(--celeste)}
+ul{padding-left:22px}
+li{margin:8px 0}
+.pasos{counter-reset:paso}
+.paso{padding:5px 0 12px 52px;position:relative;margin:15px 0}
+.paso:before{counter-increment:paso;content:counter(paso);position:absolute;left:0;top:0;background:var(--celeste);color:white;width:36px;height:36px;display:grid;place-items:center;border-radius:50%;font-weight:bold}
+.paso h3{margin:0;color:var(--azul)}
+.aviso{background:#fff7e5;border:1px solid #f1dfb7;border-radius:10px;padding:16px;font-size:14px}
+.faq details{padding:16px 0;border-bottom:1px solid #d8e1e8}
+.faq summary{cursor:pointer;font-weight:bold;color:var(--azul)}
+.contacto{background:var(--azul);color:white}
+.contacto h2{color:white}
+.contacto p{max-width:700px}
+footer{background:#0b2036;color:#dce8f3;padding:25px 7%;font-size:13px}
+@media(max-width:600px){header{align-items:flex-start;flex-direction:column}.hero{padding:65px 6%}section{padding:48px 6%}h2{font-size:28px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">FAN Ingeniería y Proyectos<small>SOLUCIONES TÉCNICAS</small></div>
+  <nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#packs">Packs</a>
+    <a href="#proceso">Cómo funciona</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <div class="small">Región de O'Higgins · Ingeniería y proyectos</div>
+  <h1>Regulariza tu vivienda con orientación técnica y claridad.</h1>
+  <p>Te ayudamos a evaluar tu propiedad, revisar antecedentes y conocer los pasos para regularizar tu vivienda o desarrollar tu proyecto sanitario.</p>
+  <a class="btn whatsapp" href="https://wa.me/56942633595?text=Hola%2C%20quisiera%20consultar%20por%20los%20servicios%20de%20FAN." target="_blank" rel="noopener">Consultar por WhatsApp</a>
+  <a class="btn secundario" href="#servicios">Conocer servicios</a>
+</section>
+
+<section id="servicios">
+  <p class="icono">NUESTROS SERVICIOS</p>
+  <h2>Soluciones para tu propiedad</h2>
+  <p class="intro">Te orientamos para comprender tu situación, definir qué necesitas y conocer el alcance del trabajo antes de comenzar.</p>
+  <div class="grid">
+    <article class="card"><div class="icono">⌂</div><h3>Regularización · Ley del Mono</h3><p>Evaluación inicial y preparación de antecedentes técnicos para estudiar la posible regularización de tu vivienda, según los requisitos aplicables.</p></article>
+    <article class="card"><div class="icono">▤</div><h3>Informe de estado de propiedad</h3><p>Revisión de antecedentes disponibles para conocer la situación de tu propiedad e identificar aspectos que conviene verificar.</p></article>
+    <article class="card"><div class="icono">⌕</div><h3>Asesoría y diagnóstico inmobiliario</h3><p>Orientación técnica para revisar necesidades, documentación y posibles gestiones relacionadas con tu inmueble.</p></article>
+    <article class="card"><div class="icono">✓</div><h3>Inspección precompra</h3><p>Apoyo técnico para revisar aspectos visibles y antecedentes relevantes antes de comprar una propiedad.</p></article>
+    <article class="card"><div class="icono">≋</div><h3>Proyectos sanitarios AP + AS</h3><p>Diseño y apoyo técnico para proyectos domiciliarios de agua potable y alcantarillado, según las condiciones de cada caso.</p></article>
+    <article class="card"><div class="icono">▧</div><h3>Cubicaciones y presupuestos</h3><p>Estimación de cantidades y costos de partidas de obra, con asesoría técnica según las necesidades del proyecto.</p></article>
+  </div>
+</section>
+
+<section class="fondo">
+  <p class="icono">TU VIVIENDA, TU TRANQUILIDAD</p>
+  <h2>¿Ampliastes tu casa y no sabes si está regularizada?</h2>
+  <p class="intro">Antes de iniciar trámites, es importante revisar las características de la construcción y los documentos disponibles. Cada propiedad necesita una evaluación particular.</p>
+  <ul>
+    <li>Revisamos tu consulta y los antecedentes iniciales.</li>
+    <li>Te orientamos sobre los documentos que podrían necesitarse.</li>
+    <li>Evaluamos el alcance del servicio según tu caso.</li>
+    <li>Te presentamos una propuesta antes de comenzar.</li>
+  </ul>
+  <a class="btn whatsapp" href="https://wa.me/56942633595?text=Hola%2C%20quiero%20consultar%20por%20la%20regularizaci%C3%B3n%20de%20mi%20vivienda." target="_blank" rel="noopener">Evaluar mi caso</a>
+</section>
+
+<section id="packs">
+  <p class="icono">PACKS Y COTIZACIONES</p>
+  <h2>Una propuesta según tus necesidades</h2>
+  <p class="intro">Los valores se confirman después de revisar el caso y definir el alcance del servicio.</p>
+  <div class="grid">
+    <article class="card">
+      <p><strong>Servicio destacado</strong></p>
+      <h3>Regularización Ley del Mono</h3>
+      <div class="precio">Desde $350.000</div>
+      <p>Valor referencial de honorarios profesionales para el servicio base, sujeto a evaluación y confirmación del alcance.</p>
+      <ul><li>Revisión inicial del caso.</li><li>Orientación sobre antecedentes.</li><li>Definición de los pasos siguientes.</li></ul>
+      <a class="btn whatsapp" href="https://wa.me/56942633595?text=Hola%2C%20quiero%20cotizar%20una%20regularizaci%C3%B3n%20por%20Ley%20del%20Mono." target="_blank" rel="noopener">Cotizar</a>
+    </article>
+    <article class="card">
+      <p><strong>Servicio a medida</strong></p>
+      <h3>Pack sanitario AP + AS</h3>
+      <div class="precio">Cotización</div>
+      <p>Proyecto domiciliario de agua potable y alcantarillado, de acuerdo con los antecedentes y el alcance requerido.</p>
+      <ul><li>Revisión de requerimientos.</li><li>Definición del alcance técnico.</li><li>Presupuesto personalizado.</li></ul>
+      <a class="btn whatsapp" href="https://wa.me/56942633595?text=Hola%2C%20quisiera%20cotizar%20un%20proyecto%20sanitario%20AP%20%2B%20AS." target="_blank" rel="noopener">Consultar</a>
+    </article>
+    <article class="card">
+      <p><strong>Según necesidad</strong></p>
+      <h3>Asesorías, informes y cubicaciones</h3>
+      <div class="precio">Cotización</div>
+      <p>Evaluación del servicio requerido y propuesta según la propiedad, los antecedentes y el trabajo solicitado.</p>
+      <ul><li>Diagnóstico inicial.</li><li>Revisión de antecedentes disponibles.</li><li>Propuesta antes de iniciar.</li></ul>
+      <a class="btn whatsapp" href="https://wa.me/56942633595?text=Hola%2C%20quisiera%20cotizar%20una%20asesor%C3%ADa%20t%C3%A9cnica." target="_blank" rel="noopener">Consultar</a>
+    </article>
+  </div>
+  <p class="aviso"><strong>Importante:</strong> el precio referencial de $350.000 corresponde a honorarios profesionales del servicio base. No incluye derechos municipales, notaría, certificados ni otros gastos de terceros, salvo acuerdo escrito. La aprobación de una regularización depende de los requisitos aplicables y de la autoridad competente; no se puede garantizar.</p>
+</section>
+
+<section class="fondo" id="proceso">
+  <p class="icono">CÓMO FUNCIONA</p>
+  <h2>Te acompañamos paso a paso</h2>
+  <div class="pasos">
+    <div class="paso"><h3>1. Cuéntanos tu caso</h3><p>Escríbenos por WhatsApp e indícanos qué necesitas resolver y en qué comuna está la propiedad.</p></div>
+    <div class="paso"><h3>2. Revisamos los antecedentes</h3><p>Te orientamos sobre la información necesaria para evaluar el servicio.</p></div>
+    <div class="paso"><h3>3. Recibes una propuesta</h3><p>Definimos el alcance, los honorarios, las exclusiones y los plazos estimados.</p></div>
+    <div class="paso"><h3>4. Comenzamos el trabajo</h3><p>Avanzamos según lo acordado y te explicamos los siguientes pasos.</p></div>
+  </div>
+</section>
+
+<section>
+  <p class="icono">ÁREA DE ATENCIÓN</p>
+  <h2>Región de O'Higgins</h2>
+  <p class="intro">Atendemos consultas y proyectos en la Región de O'Higgins. Las visitas presenciales y la factibilidad de cada servicio se confirman según la comuna y el tipo de trabajo.</p>
+</section>
+
+<section class="fondo faq">
+  <h2>Preguntas frecuentes</h2>
+  <details><summary>¿Todas las viviendas pueden regularizarse por Ley del Mono?</summary><p>No necesariamente. Depende de las características de la construcción, los antecedentes y los requisitos legales aplicables. Primero hay que evaluar cada caso.</p></details>
+  <details><summary>¿El precio incluye gastos municipales?</summary><p>No. El valor referencial publicado corresponde a honorarios profesionales del servicio base. Los derechos municipales, notaría, certificados y otros gastos externos se consideran aparte, salvo que se indique expresamente lo contrario en la propuesta.</p></details>
+  <details><summary>¿Cuánto demora el proceso?</summary><p>Depende de la complejidad del caso, los antecedentes disponibles y los tiempos de revisión de los organismos correspondientes.</p></details>
+  <details><summary>¿Cómo solicito una cotización?</summary><p>Escríbenos por WhatsApp con tu comuna, el tipo de servicio que necesitas y una breve descripción de tu caso.</p></details>
+</section>
+
+<section class="contacto" id="contacto">
+  <p>HABLEMOS DE TU PROYECTO</p>
+  <h2>¿Necesitas orientación técnica?</h2>
+  <p>Cuéntanos qué necesitas regularizar, revisar o desarrollar. Te responderemos para conocer tu caso y orientarte sobre cómo continuar.</p>
+  <p><strong>FAN Ingeniería y Proyectos</strong><br>Región de O'Higgins<br>WhatsApp: +56 9 4263 3595</p>
+  <a class="btn whatsapp" href="https://wa.me/56942633595?text=Hola%2C%20llegu%C3%A9%20a%20la%20web%20de%20FAN%20Ingenier%C3%ADa%20y%20Proyectos%20y%20quisiera%20hacer%20una%20consulta." target="_blank" rel="noopener">Escribir por WhatsApp</a>
+</section>
+</main>
+
+<footer>
+  <strong>FAN Ingeniería y Proyectos</strong> · Región de O'Higgins<br>
+  Información referencial. Cada servicio está sujeto a evaluación y propuesta.
+</footer>
+
+</body>
+</html>
